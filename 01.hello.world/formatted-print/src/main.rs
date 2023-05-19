@@ -47,7 +47,7 @@ fn main() {
     
     // format!() macro works like sprintf()
     let mystr = format!("{:b}", 510);
-    println!("512 as bin: {}", mystr);
+    println!("510 as bin: {}", mystr);
 
     // print to STDERR
     eprintln!("WARNING: this is a warning on STDERR!");
