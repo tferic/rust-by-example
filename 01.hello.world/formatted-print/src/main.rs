@@ -20,7 +20,7 @@ fn main() {
     println!("Formatting {0}: {0:b} (binary)", x);
     println!("Formatting {0}: {0:o} (octal)", x);
     println!("Formatting {0}: {0:x} (hex lc)", x);
-    println!("Formatting {0}: {0:X} (hey uc)", x);
+    println!("Formatting {0}: {0:X} (hex uc)", x);
     
     // Justify right, pad with spaces 
     println!("Number is: {:>8}", 1234);
