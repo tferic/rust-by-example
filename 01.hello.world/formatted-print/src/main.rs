@@ -32,7 +32,7 @@ fn main() {
     //  append '$' to named argument, when used as formatter
     println!("Number is: {number:>width$}", number=12345, width=8);
 
-    // Justify right, pat with zeros
+    // Justify right, pad with zeros
     println!("Number is: {:0>8}", 123456);
     println!("Number is: {:08}", 123456);
 
@@ -53,6 +53,6 @@ fn main() {
     eprintln!("WARNING: this is a warning on STDERR!");
 
     const PI: f32 = 3.141592;
-    // Formatting number in a way that precision is truncated
+    // Formatting number by precision after floating point
     println!("π is roughly: {:8.3}", PI);
 }
