@@ -98,6 +98,7 @@ fn main() {
     println!("Display: {}", complex_point1);
     println!("Debug: {:?}", complex_point1);
 
+    // Example and assignment for "Testcase: List"
     let v = List(vec![1, 2, 3]);
     println!("{}", v);
 }
